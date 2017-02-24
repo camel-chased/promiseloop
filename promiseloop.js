@@ -2,7 +2,7 @@ module.exports = function promiseLoop(promiseImplementation){
 
   promiseImplementation=promiseImplementation || Promise;
 
-  function _promiseLoop(times,iterationFn,finalFn){
+  return function _promiseLoop(times,iterationFn,finalFn){
     let current=0;
     let p=promiseImplementation.resolve("ok");
     function _loop(){
