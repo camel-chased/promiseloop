@@ -1,0 +1,24 @@
+{
+  "name": "promiseloop",
+  "version": "1.0.0",
+  "description": "for testing nested promises",
+  "main": "promiseloop.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camel-chased/promiseloop.git"
+  },
+  "keywords": [
+    "promise",
+    "loop",
+    "nested"
+  ],
+  "author": "neuronet.it@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camel-chased/promiseloop/issues"
+  },
+  "homepage": "https://github.com/camel-chased/promiseloop#readme"
+}
