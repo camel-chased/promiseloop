@@ -14,9 +14,7 @@ module.exports = function promiseLoop(promiseImplementation){
         });
       }else{
         p.then(()=>{
-          setTimeout(()=>{
-            finalFn();
-          },0);
+          finalFn();
         });
       }
     }
