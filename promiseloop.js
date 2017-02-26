@@ -13,7 +13,7 @@ module.exports = function promiseLoop(promiseImplementation){
       current++;
       if(current<times){
         p=p.then(()=>{
-          iterationFn();
+          iterationFn(current);
           _loop();
         });
       }else{
