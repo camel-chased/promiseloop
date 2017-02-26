@@ -4,6 +4,10 @@ module.exports = function promiseLoop(promiseImplementation){
 
   return function _promiseLoop(times,iterationFn,finalFn){
     let current=0;
+    if(arguments.length==2){
+      finalFn=iterationFn;
+      iterationFn=()=>{};
+    }
     let p=promiseImplementation.resolve("ok");
     function _loop(){
       current++;
