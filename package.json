@@ -1,6 +1,6 @@
 {
   "name": "promiseloop",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "for testing nested promises",
   "main": "promiseloop.js",
   "scripts": {
